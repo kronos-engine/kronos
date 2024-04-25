@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: kronos
+  security:
+    user:
+      name: kronos
+      password: root
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: kronos
+      username: root
+      password: toor
+      authentication-database: admin
+

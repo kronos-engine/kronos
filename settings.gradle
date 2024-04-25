@@ -1,0 +1,3 @@
+rootProject.name = 'kronos'
+include('domain', 'adapter', 'service', 'config', 'api', 'application')
+

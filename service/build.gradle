@@ -1,0 +1,10 @@
+dependencies {
+    implementation project(':domain')
+    implementation project(':adapter')
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+}
