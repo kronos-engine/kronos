@@ -1,6 +1,6 @@
 # Kronos
 
-[![Dependabot Updates](https://github.com/kronos-engine/kronos/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/kronos-engine/kronos/actions/workflows/dependabot/dependabot-updates)
+[![dependabot updates](https://github.com/kronos-engine/kronos/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/kronos-engine/kronos/actions/workflows/dependabot/dependabot-updates)
 [![java gradle build](https://github.com/kronos-engine/kronos/actions/workflows/gradle.yml/badge.svg)](https://github.com/kronos-engine/kronos/actions/workflows/gradle.yml)
 
 A simple spring boot project with spring boot security integrated.
@@ -30,9 +30,3 @@ This project provides a simple CRUD operations performed against NoSQL database.
 ./gradlew clean build
 ```
 
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
