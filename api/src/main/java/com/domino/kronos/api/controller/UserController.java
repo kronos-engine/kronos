@@ -20,12 +20,12 @@ import reactor.core.publisher.Mono;
 
 @RestController
 @RequestMapping("/api/users")
-public class HomeController {
+public class UserController {
 
     private final UserService userService;
 
     @Autowired
-    public HomeController(UserService userService) {
+    public UserController(final UserService userService) {
         this.userService = userService;
     }
 
