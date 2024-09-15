@@ -43,6 +43,21 @@ subprojects {
         testImplementation 'org.springframework.boot:spring-boot-starter-test'
         testImplementation 'io.projectreactor:reactor-test'
         testImplementation 'org.springframework.security:spring-security-test'
+        implementation('org.springframework:spring-webmvc') {
+            version {
+                strictly '6.1.13'
+            }
+        }
+        implementation('org.springframework.security:spring-security-core') {
+            version {
+                strictly '6.3.3'
+            }
+        }
+        implementation('org.apache.commons:commons-compress') {
+            version {
+                strictly '1.27.1'
+            }
+        }
     }
 
     configurations {
